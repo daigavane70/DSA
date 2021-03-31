@@ -1,0 +1,49 @@
+18:41:34 **** Incremental Build of configuration Debug for project Examples ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\merge_arrays.o" "..\\src\\merge_arrays.cpp" 
+..\src\merge_arrays.cpp: In function 'void selection(int)':
+..\src\merge_arrays.cpp:3:2: error: 'cout' was not declared in this scope
+  cout<<"\nPass\tCurrent\tSwaps\tComparisons\tList";
+  ^~~~
+..\src\merge_arrays.cpp:17:7: error: 'Student' has not been declared
+    if(Student::s[pos].roll>Student::s[j].roll)
+       ^~~~~~~
+..\src\merge_arrays.cpp:17:28: error: 'Student' has not been declared
+    if(Student::s[pos].roll>Student::s[j].roll)
+                            ^~~~~~~
+..\src\merge_arrays.cpp:26:4: error: 'Student' has not been declared
+    Student::s[i].roll = Student::s[i].roll + Student::s[pos].roll;
+    ^~~~~~~
+..\src\merge_arrays.cpp:26:25: error: 'Student' has not been declared
+    Student::s[i].roll = Student::s[i].roll + Student::s[pos].roll;
+                         ^~~~~~~
+..\src\merge_arrays.cpp:26:46: error: 'Student' has not been declared
+    Student::s[i].roll = Student::s[i].roll + Student::s[pos].roll;
+                                              ^~~~~~~
+..\src\merge_arrays.cpp:27:4: error: 'Student' has not been declared
+    Student::s[pos].roll = Student::s[i].roll - Student::s[pos].roll;
+    ^~~~~~~
+..\src\merge_arrays.cpp:27:27: error: 'Student' has not been declared
+    Student::s[pos].roll = Student::s[i].roll - Student::s[pos].roll;
+                           ^~~~~~~
+..\src\merge_arrays.cpp:27:48: error: 'Student' has not been declared
+    Student::s[pos].roll = Student::s[i].roll - Student::s[pos].roll;
+                                                ^~~~~~~
+..\src\merge_arrays.cpp:28:4: error: 'Student' has not been declared
+    Student::s[i].roll= Student::s[i].roll - Student::s[pos].roll;
+    ^~~~~~~
+..\src\merge_arrays.cpp:28:24: error: 'Student' has not been declared
+    Student::s[i].roll= Student::s[i].roll - Student::s[pos].roll;
+                        ^~~~~~~
+..\src\merge_arrays.cpp:28:45: error: 'Student' has not been declared
+    Student::s[i].roll= Student::s[i].roll - Student::s[pos].roll;
+                                             ^~~~~~~
+..\src\merge_arrays.cpp:36:27: error: 'Student' has not been declared
+   cout<<"\n"<<pass<<'\t'<<Student::s[i].roll<<'\t'<<swap<<'\t'<<comparisons<<'\t';
+                           ^~~~~~~
+..\src\merge_arrays.cpp:39:15: error: 'Student' has not been declared
+    cout<<'|'<<Student::s[i].roll;
+               ^~~~~~~
+
+18:41:34 Build Failed. 14 errors, 0 warnings. (took 91ms)
+

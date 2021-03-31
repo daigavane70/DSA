@@ -1,0 +1,36 @@
+18:41:37 **** Incremental Build of configuration Debug for project Stack_Array_Impl ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack ArrayImp.o" "..\\src\\stack ArrayImp.cpp" 
+..\src\stack ArrayImp.cpp: In constructor 'arrayAsStack::arrayAsStack(int)':
+..\src\stack ArrayImp.cpp:26:38: error: unknown array size in delete
+ arrayAsStack::arrayAsStack(int length)
+                                      ^
+..\src\stack ArrayImp.cpp:29:2: error: invalid use of array with unspecified bounds
+  Stack=new string[size]; //creating the string array of lenght 'size'
+  ^~~~~
+..\src\stack ArrayImp.cpp: In function 'int main()':
+..\src\stack ArrayImp.cpp:78:24: error: no matching function for call to 'arrayAsStack::arrayAsStack()'
+     class arrayAsStack s;
+                        ^
+..\src\stack ArrayImp.cpp:26:1: note: candidate: arrayAsStack::arrayAsStack(int)
+ arrayAsStack::arrayAsStack(int length)
+ ^~~~~~~~~~~~
+..\src\stack ArrayImp.cpp:26:1: note:   candidate expects 1 argument, 0 provided
+..\src\stack ArrayImp.cpp:13:7: note: candidate: arrayAsStack::arrayAsStack(const arrayAsStack&)
+ class arrayAsStack {
+       ^~~~~~~~~~~~
+..\src\stack ArrayImp.cpp:13:7: note:   candidate expects 1 argument, 0 provided
+..\src\stack ArrayImp.cpp:13:7: note: candidate: arrayAsStack::arrayAsStack(arrayAsStack&&)
+..\src\stack ArrayImp.cpp:13:7: note:   candidate expects 1 argument, 0 provided
+..\src\stack ArrayImp.cpp: In destructor 'arrayAsStack::~arrayAsStack()':
+..\src\stack ArrayImp.cpp:13:7: error: unknown array size in delete
+..\src\stack ArrayImp.cpp: In function 'int main()':
+..\src\stack ArrayImp.cpp:78:24: note: synthesized method 'arrayAsStack::~arrayAsStack()' first required here 
+     class arrayAsStack s;
+                        ^
+..\src\stack ArrayImp.cpp:84:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i=0;i<paranthesis.length();i++)
+                 ~^~~~~~~~~~~~~~~~~~~~~
+
+18:41:38 Build Failed. 4 errors, 1 warnings. (took 900ms)
+

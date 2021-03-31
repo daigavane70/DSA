@@ -1,0 +1,5 @@
+11:00:38 **** Clean-only build of configuration Debug for project Bindi ****
+rm -rf src/Stack1.d Bindi.exe src/LinkedlistADT.d src/Stack1.o src/Bindi.d src/LinkedlistADT.o src/Bindi.o 
+
+11:00:38 Build Finished. 0 errors, 0 warnings. (took 110ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bindi/src/Stack.h&apos; to &apos;Stack1.h&apos;" description="Rename resource &apos;Stack.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Stack.h" name="Stack1.h" stamp="1603776226807" updateReferences="true"/>
+</session>

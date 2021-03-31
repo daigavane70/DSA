@@ -1,0 +1,4 @@
+
+1. Insert
+2. Pop
+3. exit

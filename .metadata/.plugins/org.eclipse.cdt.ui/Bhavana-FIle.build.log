@@ -1,0 +1,19 @@
+18:41:33 **** Incremental Build of configuration Debug for project Bhavana-FIle ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\file.o" "..\\src\\file.cpp" 
+In file included from ..\src\file.cpp:14:0:
+..\src\file.h:30:8: error: field 'fileobj' has incomplete type 'file'
+   file fileobj;
+        ^~~~~~~
+..\src\file.h:14:7: note: definition of 'class file' is not complete until the closing brace
+ class file
+       ^~~~
+..\src\file.h:31:8: error: field 'modified' has incomplete type 'file'
+   file modified; // Creating Object for modified file
+        ^~~~~~~~
+..\src\file.h:14:7: note: definition of 'class file' is not complete until the closing brace
+ class file
+       ^~~~
+
+18:41:33 Build Failed. 2 errors, 0 warnings. (took 296ms)
+

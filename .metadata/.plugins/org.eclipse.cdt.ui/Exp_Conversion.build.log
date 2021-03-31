@@ -1,0 +1,10 @@
+18:41:35 **** Incremental Build of configuration Release for project Exp_Conversion ****
+Info: Internal Builder is used for build
+g++ -o Exp_Conversion.exe "src\\Conversion.o" "src\\Exp_Conversion.o" "src\\Stack.o" 
+src\Exp_Conversion.o:Exp_Conversion.cpp:(.text.startup+0x43): undefined reference to `Stack<char>::Stack()'
+src\Exp_Conversion.o:Exp_Conversion.cpp:(.text.startup+0xcd7): undefined reference to `Stack<char>::~Stack()'
+src\Exp_Conversion.o:Exp_Conversion.cpp:(.text.startup+0xd43): undefined reference to `Stack<char>::~Stack()'
+collect2.exe: error: ld returned 1 exit status
+
+18:41:35 Build Finished. 0 errors, 0 warnings. (took 142ms)
+

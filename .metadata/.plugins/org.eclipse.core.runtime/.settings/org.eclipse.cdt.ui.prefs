@@ -1,0 +1,13 @@
+CustomFiltersActionGroup.org.eclipse.cdt.ui.CView.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
+content_assist_category_order=org.eclipse.mylyn.cdt.ui.parserProposalCategory\:65535\u0000org.eclipse.cdt.ui.templateProposalCategory\:1\u0000org.eclipse.cdt.ui.parserProposalCategory\:65537\u0000org.eclipse.cdt.ui.helpProposalCategory\:3\u0000org.eclipse.cdt.ui.textProposalCategory\:65539\u0000
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
+content_assist_proposals_timeout=5000
+eclipse.preferences.version=1
+lastRecentlyUsedFilters=org.eclipse.cdt.internal.ui.CView.ExecutableFilter,
+org.eclipse.cdt.internal.ui.CView.AnonymousStructFilter=true
+org.eclipse.cdt.internal.ui.CView.ForwardDeclarationFilter=true
+org.eclipse.cdt.ui.CView_patternFilterId_.*=true
+sourceHoverBackgroundColor=255,255,225
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

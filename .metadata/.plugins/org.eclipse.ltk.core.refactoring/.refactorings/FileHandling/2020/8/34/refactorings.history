@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FileHandling/pseudo code.txt&apos; to &apos;file.txt&apos;" description="Rename resource &apos;pseudo code.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pseudo code.txt" name="file.txt" stamp="1597582520829" updateReferences="true"/>
+</session>

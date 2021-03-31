@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="LastUsedSourceTemplate" value="Default C++ source template"/>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="CResourceRenameRefactoringInputPage">
+		<item key="updateReferences" value="true"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item key="namespaceSelected" value="false"/>
+		<item key="testFileSelected" value="false"/>
+		<item key="stubImpl0" value="DEFINITION"/>
+		<item key="stubSelected0" value="true"/>
+		<item key="stubVirtual1" value="true"/>
+		<item key="stubImpl1" value="DEFINITION"/>
+		<item key="stubSelected1" value="true"/>
+		<item key="stubImpl2" value="DEFINITION"/>
+		<item key="stubSelected2" value="false"/>
+		<item key="stubImpl3" value="DEFINITION"/>
+		<item key="stubSelected3" value="false"/>
+		<item key="stubImpl4" value="DEFINITION"/>
+		<item key="stubSelected4" value="false"/>
+		<item key="stubImpl5" value="DEFINITION"/>
+		<item key="stubSelected5" value="false"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="CRenameRefactoringInputPage">
+		<item key="scope" value="3"/>
+		<item key="workingset" value=""/>
+		<item key="references_inv" value="false"/>
+		<item key="comment" value="false"/>
+		<item key="macroDefinition" value="false"/>
+		<item key="exhausiveFileSearch" value="false"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.text.QuickOutline">
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_WIDTH" value="450"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_HEIGHT" value="400"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_X_ORIGIN" value="913"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_Y_ORIGIN" value="426"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_LOCATION" value="true"/>
+	</section>
+</section>

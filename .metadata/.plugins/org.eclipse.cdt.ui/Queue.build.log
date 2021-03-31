@@ -1,0 +1,8 @@
+11:18:29 **** Incremental Build of configuration Debug for project Queue ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Queue.o" "..\\src\\Queue.cpp" 
+g++ -o Queue.exe "src\\Queue.o" "src\\main.o" 
+
+11:18:33 Build Finished. 0 errors, 0 warnings. (took 3s.258ms)
+

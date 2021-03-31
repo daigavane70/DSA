@@ -1,0 +1,12 @@
+18:41:39 **** Incremental Build of configuration Debug for project Student_Class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Student.o" "..\\src\\Student.cpp" 
+..\src\Student.cpp:81:6: error: redefinition of 'void stud_class::input()'
+ void stud_class::input()
+      ^~~~~~~~~~
+..\src\Student.cpp:54:6: note: 'void stud_class::input()' previously defined here
+ void stud_class::input()    //input using File
+      ^~~~~~~~~~
+
+18:41:40 Build Failed. 1 errors, 0 warnings. (took 803ms)
+

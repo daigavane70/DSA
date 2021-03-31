@@ -1,0 +1,7 @@
+19:26:09 **** Incremental Build of configuration Debug for project CP-Mathematics ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CP-Mathematics.o" "..\\src\\CP-Mathematics.cpp" 
+g++ -o CP-Mathematics.exe "src\\CP-Mathematics.o" 
+
+19:26:11 Build Finished. 0 errors, 0 warnings. (took 1s.612ms)
+

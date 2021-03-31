@@ -1,0 +1,30 @@
+18:41:40 **** Incremental Build of configuration Debug for project overriding ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\overriding.o" "..\\src\\overriding.cpp" 
+..\src\overriding.cpp:1:1: error: 'BaseClass' does not name a type
+ BaseClass
+ ^~~~~~~~~
+..\src\overriding.cpp:10:1: error: 'DerivedClass' does not name a type
+ DerivedClass : public BaseClass
+ ^~~~~~~~~~~~
+..\src\overriding.cpp:19:1: error: 'BaseClass' does not name a type
+ BaseClass obj;
+ ^~~~~~~~~
+..\src\overriding.cpp:20:1: error: 'obj' does not name a type
+ obj.display();
+ ^~~
+..\src\overriding.cpp:22:1: error: 'BaseClass' does not name a type
+ BaseClass obj;
+ ^~~~~~~~~
+..\src\overriding.cpp:23:1: error: 'obj' does not name a type
+ obj.display();
+ ^~~
+..\src\overriding.cpp:25:1: error: 'BaseClass' does not name a type
+ BaseClass obj1 = DerivedClass();
+ ^~~~~~~~~
+..\src\overriding.cpp:26:1: error: 'obj1' does not name a type
+ obj1.display();
+ ^~~~
+
+18:41:40 Build Failed. 8 errors, 0 warnings. (took 84ms)
+

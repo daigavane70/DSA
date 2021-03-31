@@ -1,0 +1,15 @@
+18:41:34 **** Incremental Build of configuration Debug for project DSA_Assignment1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DSA_Assignment1.o" "..\\src\\DSA_Assignment1.cpp" 
+..\src\DSA_Assignment1.cpp:22:12: error: invalid use of non-static data member 'stud_data::n'
+  student a[n];
+            ^
+..\src\DSA_Assignment1.cpp:21:6: note: declared here
+  int n;
+      ^
+..\src\DSA_Assignment1.cpp:28:18: error: two or more data types in declaration of 'sort_alpha'
+  void sort_alpha();
+                  ^
+
+18:41:34 Build Failed. 2 errors, 0 warnings. (took 244ms)
+
